@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ThingContext from '../../contexts/ThingContext'
 import ThingApiService from '../../services/thing-api-service'
 import { Hyph, Section } from '../../components/Utils/Utils'
-import { ThingStarRating } from '../../components/ThingStarRating/ThingStarRating'
 import ReviewForm from '../../components/ReviewForm/ReviewForm'
+import { ThingStarRating } from '../../components/ThingStarRating/ThingStarRating'
 import './ThingPage.css'
 
 export default class ThingPage extends Component {
@@ -40,6 +40,8 @@ export default class ThingPage extends Component {
     </>
   }
 
+  // **********This is were you stopped******
+  
   render() {
     const { error, thing } = this.context
     let content
