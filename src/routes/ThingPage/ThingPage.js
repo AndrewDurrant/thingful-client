@@ -39,8 +39,6 @@ export default class ThingPage extends Component {
       <ReviewForm />
     </>
   }
-
-  // **********This is were you stopped******
   
   render() {
     const { error, thing } = this.context
